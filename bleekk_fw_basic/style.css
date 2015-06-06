@@ -1,0 +1,418 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+/******************************************************************/
+body, html { 
+	margin: 0; /*Abstand des Body*/
+	background: #fffcf9; /*Hintergrundfarbe*/
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+.clear{
+	clear:both;
+	}
+
+p {
+	color: #000;
+	margin: 0;
+	padding: 5px;
+}
+
+.row {
+	width: 1024px;
+	margin: 0 auto;
+	}
+
+.header{
+	width:1024px;
+	height: 80px;
+	color: #000;
+	background: #99d15e;
+	text-align: center;
+	float: left;
+	}
+
+.header a{
+	font-size: 2em;
+	color: #0079AC;
+	}
+
+.header span{
+	font-size: 1.2em;
+	color: #000;
+	display: block
+	}
+
+.topmenu{
+	width:1024px;
+	height: 30px;
+	line-height: 30px;
+	background:#d42567;
+	margin: 0;
+	float: left;
+	}
+
+.topmenu ul{
+	padding:0;
+	margin: 0;
+	text-align: center;
+	}
+
+.topmenu li{
+	display:inline;
+	padding: 10px;
+	}
+
+.topmenu a{
+	color:#000;
+	}
+
+.leftcolumn{
+	width: 180px;
+	background: #e0f07b;
+	margin: 0 5px 0 0;
+	float: left;
+	}
+
+.rightcolumn{
+	width:180px;
+	background: #e0f07b;
+	margin: 0 0 0 5px;
+	float: right;
+	}
+
+.centercolumn{
+	background: #e0f07b;
+	margin: 0;
+	float: left;
+	}
+
+.dreispalten-layout{width:654px;}
+.zweispalten-layout{width:839px;}
+
+.footer{
+	width:1024px;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	background: #99d15e;
+	text-align: center;
+	}
+
+/*Inhalt*/
+.page-content{
+	margin: 0 0 5px 0;
+	float: left;
+	}
+
+/* Blöcke */
+.centerblock-left{
+	width:325px;
+	margin: 0 2px 5px 0;
+	overflow: hidden;
+	float: left;
+	}
+
+.centerblock-right{
+	width:325px;
+	margin: 0 0 5px 2px;
+	overflow: hidden;
+	float: left;
+	}
+
+
+.centerblock-center{
+	margin: 0 0 5px 0;
+	overflow: hidden;
+	float: left;
+	display: block;
+	}
+
+.left-block-container{
+	padding: 5px;
+	}
+
+.left-block-title{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 5px;
+	background: #36c7bf;
+	}
+
+.left-block-content{
+	padding: 5px;
+	background: #efecda;
+	}
+
+.right-block-container{
+	padding: 5px;
+	}
+
+.right-block-title{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 5px;
+	background: #36c7bf;
+	}
+
+.right-block-content{
+	padding: 5px;
+	background: #efecda;
+	}
+
+/*block-title und block-content gilt für alle Blöcke in der mittleren Spalte*/
+.block-title{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 5px;
+	background: #36c7bf;
+	}
+
+.block-content{
+	padding: 5px;
+	background: #ffedd5;
+	}
+
+/* END Blöcke */
+
+/* hypertext links */
+a {
+	text-decoration: none;
+	border: none;
+	color: #0079AC;
+}
+a:hover {
+	background: none;
+}
+
+/* titles */
+h1, h2, h3 {
+	margin: 0;
+	font-weight: normal;
+	color: #000000;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.6em;
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/*listing*/
+ul{ margin: 0px; padding:0 0 0 15px;}
+li{margin:0px; list-style: square;}
+
+/* block main menu */
+#mainmenu {	font-size: 13px;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  border: none;
+  color: #333333;
+}
+#mainmenu a:hover {}
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+}
+#mainmenu a.menuSub:hover {background-color: #f8f8f8;}
+
+/* block user menu */
+#usermenu {	font-size: 13px;}
+#usermenu a {
+  display: block;
+  color: #333333;
+}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #A52524;}
+
+	
+
+/* tables and cells */
+table {width: 100%;}
+table td {
+  padding: 0;
+  border-width: 0;
+  vertical-align: top;
+}
+th {
+	height: 28px;
+	line-height: 28px;
+	vertical-align : middle;
+  	color: #333333;
+}
+.outer {}
+.head {
+  background-color: #f4f4f4;
+  font-weight: bold;
+
+}
+.even {
+  background-color: #f7f7f7;
+
+}
+.odd {
+  background-color: #f9f9f9;
+
+}
+.foot {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+tr.even td {
+  background-color: #f7f7f7;
+}
+tr.odd td {
+  background-color: #f9f9f9;
+}
+
+/* Artikel (für zB das news, smartsection modul)*/
+.item {margin-bottom: 0px; border: 1px solid #cccaca; padding: 5px; background: url(../img/block-con.jpg) top repeat-x #fff;}
+.itemHead {
+  padding: 3px;  
+  color: #fff;
+  font-size: 1.1em;
+  color: #0079AC;
+}
+.itemInfo {
+  text-align: right;
+  padding: 3px;
+  background-color: inherit;
+}
+.itemTitle a {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #0079AC;
+}
+.itemPoster {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemPostDate {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemStats {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemBody {padding-left: 5px;}
+.itemText {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.5em;
+}
+.itemText:first-letter {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.itemFoot {
+  text-align: right;
+  padding: 3px;
+  background-color: #f9f9f9;
+}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+/* Forum */
+.comTitle {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.comText {padding: 2px;}
+.comUserStat {
+  font-size: 10px;
+  font-weight:bold;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 2px; padding: 2px;
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+  margin-left: 2px;
+  margin-top: 10px;
+  color: #639ACC;
+  font-weight:bold;
+  font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+  font-size: .8em;
+  font-weight:bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+  font-weight: normal;
+  font-style: italic;
+  font-size: .8em
+}  
+.comDateCaption {
+  font-weight: bold;
+  font-style: normal;
+  font-size: .8em
+}
+.signature {
+  font-size:.8em;
+  font-style:italic;
+}
+
+/* core nachrichten */
+.errorMsg {
+  background-color: #FFCCCC;
+  text-align: center;
+  border-top: 1px solid #DDDDFF;
+  border-left: 1px solid #DDDDFF;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+  padding: 10px;
+}
+.confirmMsg {
+  background-color: #DDFFDF;
+  color: #136C99;
+  text-align: center;
+  border-top: 1px solid #DDDDFF;
+  border-left: 1px solid #DDDDFF;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+  padding: 10px;
+}
+.resultMsg {
+  background-color: #c1c1c1;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  font-weight: bold;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  padding: 10px;
+}
+
+/* codes and quotes */
+.xoopsCode {
+  background-color: #fff;
+  border: 1px inset #000080;
+  font-family: "Courier New",Courier,monospace;
+  max-height: 200px;
+  overflow: auto;
+}
+.xoopsQuote {
+  background-color: #fff;
+  border: 1px inset #000080;
+  font-family: "Courier New",Courier,monospace;
+  font-style:italic;
+  padding: 0 6px 6px 6px;
+}  
